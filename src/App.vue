@@ -77,17 +77,14 @@ ul {
 }
 
 /*** TRANSITIONS ***/
-.fade-enter {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
 }
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.5s ease-out;
-}
-
-.fade-leave-to {
-  opacity: 0;
+  transition: opacity 1s ease-out;
 }
 
 .slide-fade-enter {
